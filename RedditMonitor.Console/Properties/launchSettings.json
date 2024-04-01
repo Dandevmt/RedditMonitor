@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "RedditMonitor.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RedditApiOptions:ClientId": "",
+        "RedditApiOptions:ClientSecret": "",
+        "RedditApiOptions:GrantType": "client_credentials",
+        "RedditApiOptions:UserAgent": "reddit-monitor",
+        "RedditApiOptions:BaseUrl": "https://oauth.reddit.com",
+        "RedditApiOptions:TokenUrl": "https://www.reddit.com/api/v1/access_token"
+      }
+    }
+  }
+}
